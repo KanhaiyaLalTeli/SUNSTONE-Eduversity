@@ -1,0 +1,255 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+
+}
+body{
+	overflow-x: hidden;
+}
+/*.header-div{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 100vw;
+	height: 80px;
+	
+}*/
+nav{
+	/* overflow: hidden;*/
+	 background-color: white;
+     position: fixed;
+     top: 0;
+     width: 100vw;
+     height: 100px;
+     text-align: center;
+     padding: 15px;
+     z-index: 1;
+}
+
+nav ul li{
+	
+	position: relative;
+	display: inline-block;
+	padding: 0px 05px;
+	background-color: white;
+
+}
+nav ul li a{
+	display: block;
+	padding: 5px 15px;
+	color: black;
+	text-decoration: none;
+
+}
+
+nav ul ul li a:hover{
+	background-color: lightgray;
+	border-radius: 5px;
+}
+nav ul ul{
+	position: absolute;
+	top: 30px;
+	text-align: left;
+	display: none;
+   
+}
+nav ul li:hover ul{
+	display: block;
+
+}
+nav ul ul li{
+	width: 180px;
+	padding: 5px;
+	float: none;
+	display: list-item;
+	position: relative;
+}
+
+nav ul ul ul li{
+	width: 150px;
+	float: none;
+	display: list-item;
+	position: relative;
+}
+ul{
+	list-style-type: none;
+}
+li{
+
+	cursor: pointer;
+}
+/*
+.header-item{
+	display: flex;
+	text-orientation: none;
+}
+.explore-program{
+	opacity: 0;
+}*/
+.login{
+	color: blue;
+	font-weight: 600;
+	margin: 10px;
+	cursor: pointer;
+}
+.apply-btn{
+	height: 35px;
+	padding: 5px;
+	font-weight: 700;
+	font-size: 15px;
+	background-color: #22366a;
+	color: white;
+	cursor: pointer;
+}
+.img-div{
+	width: 100vw;
+	max-height: 90vh;
+	margin: 10px 0px;
+	
+}
+.text-pic{
+	position: relative;
+	top:-300px;
+	left: 100px;
+	z-index: 0;
+}
+.ready{
+	font-size: 45px;
+	font-weight: 700;
+	color: white;
+}
+.changemaker{
+	font-size: 60px;
+	font-weight: 800;
+	color: white;
+}
+.apply-button{
+   text-align: center;
+   height: 60px;
+   width: 260px;
+   margin: 15px 0px;
+   font-size: 30px;
+   font-weight: bold;
+   background-color: #22366a;
+   color: white;
+   border: none;
+   cursor: pointer;
+}
+.content{
+	margin: 0px 10px;
+	padding: 20px;
+}
+.eligibility-criteria-div,.admission-process-div{
+	margin: 30px;
+	
+}
+
+.eligibility-criteria-heading,.admission-process-heading{
+	font-size: 50px;
+	color: blue;
+	font-weight: 900;
+	margin: 40px 0px;
+}
+
+ol li{
+	font-size: 20px;
+	margin : 5px;
+}
+ol div{
+	font-size: 18px;
+	margin : 5px;
+	padding: 5px;
+}
+.admission-process-content1{
+	font-size: 18px;
+	margin: 0px 0px 40px;
+}
+.contact{
+	font-size: 25px;
+	font-weight: 700;
+	margin: 20px;
+
+}
+.footer{
+	background-color: lightblue;
+	color: #544c4c;
+	width: 100vw;
+}
+.footer-logo{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 100px;
+	
+	
+
+}
+.footer-info{
+	display: flex;
+	justify-content: space-around;
+	margin: 20px;
+}
+
+.footer-info ul{
+  margin: 5px;
+}
+.footer-info ul li{
+	margin : 12px 0px;
+}
+.footer-info div div{
+	margin : 40px 0px 25px 0px;
+}
+.social-media{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 15px;
+}
+.fb,.tw,.insta,.linkedin{
+	  border-left: 1px solid black;
+	  border-right: 1px solid black;
+       height: 100px;
+       padding: 0px 20px;
+      
+}
+.social-img{
+	margin: 25px 0px;
+}
+
+.top-read-div{
+	padding: 10px 0px 100px 100px;
+}
+.top-read{
+	margin: 20px 0px;
+}
+
+.footer-copyright{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px;
+	height: 50px;
+}
+
+.footer-copyright div span{
+	padding: 0px 20px;
+}
+.chat{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: blue;
+	width: 150px;
+	height: 40px;
+	cursor: pointer;
+	border-radius: 20px;
+	position: fixed;
+    right: 0px;
+    bottom: 50px;
+}
+.chat span{
+	margin: 5px;
+	color: white;
+}
+
